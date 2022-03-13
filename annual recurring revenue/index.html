@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- app that calculte your annual/monthly recurring 
+    revenue from subscription based buisness model -->
+
+    <!-- number of members -->
+    <!-- price per months -->
+    <!-- Annual Revenue [12 months]-->
+    <!-- monthly revenue -->
+
+    <div class="main-container">
+        <div class="box">
+        <!-- div 1 -->
+        <div class="header">
+            <h1>Plan on making a subscription based buisness ?</h1>
+        </div>
+        <!-- div 2 -->
+        <div class="container">
+            <h3>
+                How much could you earn?
+            </h3>
+        <p>
+            Whether you prefer a large audience at a low price point or a small dedicated following at a premium fee, you control the economics.
+        </p>
+        <p>
+            See how much you could earn with a subscription commerce publication
+        </p>
+        </div>
+        <!-- div 3 -->
+        <div class="calc">
+            <div class="div-calc">
+                <input type="range" name="members" id="members" value="50" step="50" class="input-range-members" min="50" max="5000" >
+                <div class="members-num">50</div>
+                <div>/</div>
+                <label for="members">members</label>
+            </div>
+            <div class="div-calc">
+                <input type="range" name="members" id="members" value="5" step="5" class="input-range-months" min="5" max="100" >
+                <div class="month-num">5</div>
+                <div>/</div>
+                <label for="month">month</label>
+            </div>
+            <div class="rev">
+                <div class="content">
+                    3,000
+                </div>
+            </div>
+        </div>
+
+     <div class="result">
+        <div class="gh-result"> Your annual recurring revenue </div>
+     </div>
+    </div>
+    </div>
+
+
+</body>
+<script src="./scripts.js"></script>
+</html>
